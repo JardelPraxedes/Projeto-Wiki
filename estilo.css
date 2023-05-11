@@ -1,0 +1,230 @@
+::root {
+    font-size: 28px;
+}
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    text-transform: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+body {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.page-landing {
+    display: flex;
+    flex-direction: column;
+    /* align-self: center; */
+    align-content: center;
+    /* align-items: center; */
+    padding-left: 5vw;
+    height: 100%;
+    height: 80%;
+}
+
+.cabecalho {
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-content: center;
+}
+
+.imagem {
+    display: flex;
+    flex-direction: inline;
+    padding: 1vh 4vw;
+}
+.imagem img {
+    width: 6.5vw;
+}
+
+#globo {
+    width: 3vw;
+    margin-right: 0.8vw ;
+}
+
+
+.nome_cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.barra {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+
+}
+
+.barra input {
+    border: 1px solid rgb(139, 136, 136);
+    width: 33vw;
+    height: 3.5vh;
+}
+
+::placeholder {
+    padding: 2vw;
+    color: rgb(139, 136, 136);
+    font-size: 0.95rem;
+}
+
+.area_logo {
+    display: flex;
+    flex-direction: column;
+    background-color: #e21622;
+    width: 90vw;
+    height: 20%;
+    margin-top: 5vh;
+    color: white;
+    font-weight: bold;
+    justify-content: auto;
+    justify-self: center;
+    justify-items: center;  
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_area {
+    display: flex;
+    position: relative;
+    
+
+}
+.logo_area img {
+    width: 12vw;
+    margin-right: 30vw;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+
+}
+
+.texto {
+    display: flex;
+    flex-direction: inline;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-self: center;
+    text-align: center;
+    /* justify-tracks:initial; */
+}
+
+.side_bar {
+    display: flex;
+    justify-content: center;
+    border-color: gray;
+    background-color: beige;
+    border-spacing: 2vw;
+    border-collapse: separate;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 2px 3px 2px 3px;
+    text-decoration: none;  
+    
+}
+
+.side_bar a {
+    display: flex;
+    justify-content: center;
+    background-color: #F4F9F0;
+    border-top: 0.3vw solid;
+    border-color: #669933;
+    border-left: 2px solid white;
+    padding: 0.2vw 1.8rem;
+    width: 8%;
+    text-transform: none;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    
+    
+}
+
+.boas-vindas {
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: -40px -15px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    justify-content: space-between; 
+}
+
+.texto-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    font-family: sans-serif;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+    color: #555555;
+    font-size: 2rem;
+}
+
+.texto_interno {
+    font-size: 1.5rem;
+}
+.boas-vindas a {
+    text-transform: none;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.artigos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 8vh;
+    width: 80vw;
+}
+
+#conteudos {
+    margin-top: 3vh;
+    font: 1rem arial;
+}
+
+#conteudos a {
+    font-weight: bold;
+    margin-bottom: 5vh;
+}
+
+.footer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    margin-top: 10vh;
+    top: 90%;
+}
