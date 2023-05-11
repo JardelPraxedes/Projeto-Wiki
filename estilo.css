@@ -7,7 +7,6 @@
     margin: 0;
     text-transform: none;
     text-decoration: none;
-    color: black;
 }
 
 
@@ -213,6 +212,7 @@ body {
 #conteudos a {
     font-weight: bold;
     margin-bottom: 5vh;
+    color: black;
 }
 
 .footer {
@@ -227,4 +227,14 @@ footer {
     position: relative;
     margin-top: 10vh;
     top: 90%;
+}
+
+.voltar {
+    display: flex;
+    position: relative;
+    margin: 0;
+}
+
+.voltar a {
+    color: black;
 }
