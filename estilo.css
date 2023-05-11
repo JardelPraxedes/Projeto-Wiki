@@ -25,7 +25,8 @@ body {
     /* align-items: center; */
     padding-left: 5vw;
     height: 100%;
-    height: 80%;
+    width: 90%;
+    padding-right: 10vw;
 }
 
 .cabecalho {
@@ -82,7 +83,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #e21622;
-    width: 90vw;
+    /* width: 90vw; */
     height: 20%;
     margin-top: 5vh;
     color: white;
@@ -101,7 +102,7 @@ body {
 
 }
 .logo_area img {
-    width: 12vw;
+    /* width: 12vw;     */
     margin-right: 30vw;
     justify-content: center;
     justify-items: center;
@@ -120,6 +121,7 @@ body {
     justify-items: center;
     justify-self: center;
     text-align: center;
+    font: 1.3rem sans-serif ;
     /* justify-tracks:initial; */
 }
 
@@ -127,14 +129,15 @@ body {
     display: flex;
     justify-content: center;
     border-color: gray;
-    background-color: beige;
+    /* background-color: beige; */
+    width: 100%;
     border-spacing: 2vw;
     border-collapse: separate;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 1.8rem;
     padding: 2px 3px 2px 3px;
     text-decoration: none;  
-    
+    margin: 1vw;
 }
 
 .side_bar a {
@@ -180,11 +183,11 @@ body {
     align-content: center;
     justify-self: center;
     color: #555555;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .texto_interno {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 .boas-vindas a {
     text-transform: none;
@@ -201,12 +204,11 @@ body {
     font-family: sans-serif;
     font-weight: bold;
     margin-top: 8vh;
-    width: 80vw;
 }
 
 #conteudos {
     margin-top: 3vh;
-    font: 1rem arial;
+    font: 1.4rem arial;
 }
 
 #conteudos a {
