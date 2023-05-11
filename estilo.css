@@ -131,13 +131,14 @@ body {
     border-color: gray;
     /* background-color: beige; */
     width: 100%;
-    border-spacing: 2vw;
+    border-spacing: 5vw;
     border-collapse: separate;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     padding: 2px 3px 2px 3px;
     text-decoration: none;  
-    margin: 1vw;
+    margin: 2vw;
+
 }
 
 .side_bar a {
@@ -147,15 +148,15 @@ body {
     border-top: 0.3vw solid;
     border-color: #669933;
     border-left: 2px solid white;
-    padding: 0.2vw 1.8rem;
-    width: 8%;
+    padding: 0.3vh 2.3vw;
+    width: 6%;
     text-transform: none;
     text-decoration: none;
     color: black;
     font-family: sans-serif;
     
-    
 }
+
 
 .boas-vindas {
     display: flex;
@@ -187,7 +188,8 @@ body {
 }
 
 .texto_interno {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
+	padding-top: 2vh;
 }
 .boas-vindas a {
     text-transform: none;
@@ -234,9 +236,21 @@ footer {
 .voltar {
     display: flex;
     position: relative;
+	align-items: center;
+	text-align:center;
+	width: 12vw;
+	height: 8vh;
     margin: 0;
+	align-content: center;
+	justify-content: center;
+	align-self: center;
+
 }
 
 .voltar a {
     color: black;
+	border: 2px solid black;
+	border-radius: 50px;
+	background: black;
+	color: white;
 }
